@@ -259,7 +259,9 @@ h2 {
   position: relative;
   z-index: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .frame {
@@ -272,14 +274,40 @@ h2 {
   justify-content: center;
   overflow: hidden
 }
-
-.color-for-picture-background-left {
-  background: #C7DDEA;
-}
 .card img
 {
   position: absolute;
   object-fit: contain;
+}
+.card h3
+{
+  margin-top: auto;
+  display: flex;
+  width: 12.375rem;
+  height: 0.8125rem;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.90);
+  text-align: center;
+  font-family: 'Frank Ruhl Libre';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+  padding-bottom: 0.88rem;
+}
+.card p
+{
+  width: 13.375rem;
+  height: 6.75rem;
+  color: rgba(0, 0, 0, 0.40);
+  text-align: center;
+  font-family:'Fira Sans';
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.125rem;
+  margin-bottom: 1.69rem;
 }
 #childimage
 {
@@ -304,14 +332,22 @@ h2 {
   align-items: center;
   transform: translateY(-35%) scale(28%);
 }
-
-
+.color-for-picture-background-left {
+  background: #C7DDEA;
+}
 .color-for-picture-background-middle {
   background: #FAB131;
 }
-
 .color-for-picture-background-right {
   background: #F17949;
+}
+.color-for-picture-background-left:hover,
+.color-for-picture-background-middle:hover,
+.color-for-picture-background-right:hover 
+{
+  transition: 0.8s;
+  transform: scale(1.3) translateY(-15%);
+  box-shadow: -10px 30px 52px #93b0b9;
 }
 
 /*-------------main-bottom--------------*/
@@ -461,6 +497,7 @@ h2 {
   font-size: 17px;
   line-height: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -470,16 +507,15 @@ h2 {
 
 #chevrons-image
 {
-  position: absolute;
-  top: -65px;
-  left: 18px;  
   margin: 0 auto;
   width: 32px;
   height: 32px;
-  transition: 0.4s; 
+  transition: 0.4s;
+  position: absolute;
+  transform: translateY(-65%) translateX(-60%); 
 }
 #chevrons-image:hover
 {
-  transform: translate(0, -1rem);
+  transform: translateY(-100%) translateX(-60%);
   box-shadow: 0 0 2px black;
 }
