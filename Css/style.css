@@ -158,7 +158,7 @@ body {
   opacity: 1;
 }
 
-img {
+#family {
   width: 17.875rem;
   height: 17.4375rem;
   position: absolute;
@@ -267,12 +267,44 @@ h2 {
   height: 9.375rem;
   position: absolute;
   top: -1.63rem;
-  background: #f17949;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden
 }
 
 .color-for-picture-background-left {
   background: #C7DDEA;
 }
+.card img
+{
+  position: absolute;
+  object-fit: contain;
+}
+#childimage
+{
+  width: 13.375rem;
+  height: 8.625rem;
+  transform: translateY(19%) scale(1.1);
+}
+#adultimage
+{
+  display: flex;
+  width: 13.625rem;
+  padding: 0rem 3.601rem 0rem 3.5385rem;
+  justify-content: center;
+  align-items: center;
+  transform: scale(94%);
+}
+#oldmanimage
+{
+  display: inline-flex;
+  padding: 1.5rem 1.52894rem 0rem 3.24888rem;
+  justify-content: flex-end;
+  align-items: center;
+  transform: translateY(-35%) scale(28%);
+}
+
 
 .color-for-picture-background-middle {
   background: #FAB131;
@@ -442,7 +474,12 @@ h2 {
   top: -65px;
   left: 18px;  
   margin: 0 auto;
-
   width: 32px;
-  height: 32px; 
+  height: 32px;
+  transition: 0.4s; 
+}
+#chevrons-image:hover
+{
+  transform: translate(0, -1rem);
+  box-shadow: 0 0 2px black;
 }
