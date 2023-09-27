@@ -399,4 +399,41 @@ h2 {
   color: rgba(0, 0, 0, 0.7);
 }
 
+
 /*-------------Footer--------------*/
+
+#footer-section-grid{
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 4.25rem;
+}
+
+#footer-container{
+  width: 1000px;
+  height: 340px;
+  background: #777574;
+}
+
+#Take-me-up-text{
+  
+  height: 4.25rem;
+  background: #A9A19E;
+  grid-column: auto / span 6;
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#chevrons-image{
+  width: 32px;
+  height: 32px;
+}
