@@ -1,345 +1,304 @@
-*
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} 
-body
-{
-    width: 100vw;
-    height: 100vh;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.wrapper-topgrid
-{
-    max-width: 1002px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 17rem 17rem 4.25rem;
+body {
+  width: 100vw;
+  height: 100vh;
 }
-#flexconteiner
-{
-    background: #C7DDEA;
-    grid-column: auto / span 3;
-    grid-row: span 2; 
-    position: relative;
+.wrapper-topgrid {
+  max-width: 1002px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 17rem 17rem 4.25rem;
 }
-#flexconteinertext
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    padding-top: 4.44rem; 
-    padding-left: 1.85rem;   
+#flexconteiner {
+  background: #c7ddea;
+  grid-column: auto / span 3;
+  grid-row: span 2;
+  position: relative;
 }
-#flexconteinertext h2
-{
-    width: 19.625rem;
-    height: 6.3125rem;
+#flexconteinertext {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-top: 4.44rem;
+  padding-left: 1.85rem;
 }
-.join-now-button
- {
-    width: 8.1875rem;
-    height: 2.4375rem;
-    border-radius: 6.25rem;
-    background: #FFF;
-    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.10);
-    border: none;
-    margin-top: 3.19rem;
- }
- .join-now-button:hover
- { 
-    transition-delay: 0.1s;
-    transform: scale(1.15);
-    box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.10);
- }
- .button-reference
- {
-    text-decoration: none;
-    margin: auto;
-    display: flex;
-    width: 6.3125rem;
-    height: 1.875rem;
-    flex-direction: column;
-    justify-content: center;
-    color: rgba(0, 0, 0, 0.80);
-    text-align: center;
-    font-family: 'Fira Sans';
-    font-size: 0.625rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
- }
-#flexconteiner p
-{
-    width: 16.75rem;
-    height: 6.4375rem;
-    color: rgba(0, 0, 0, 0.60);
-    font-family: 'Fira Sans';
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5rem;
-    padding-right: 0.1rem;
+#flexconteinertext h2 {
+  width: 19.625rem;
+  height: 6.3125rem;
 }
-#flexconteiner span
-{
-    color: #FFF;
+.join-now-button {
+  width: 8.1875rem;
+  height: 2.4375rem;
+  border-radius: 6.25rem;
+  background: #fff;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-top: 3.19rem;
 }
-#conteinertop-right
-{
-    grid-column: auto /span 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #F17949;
+.join-now-button:hover {
+  transition-delay: 0.1s;
+  transform: scale(1.15);
+  box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1);
+}
+.button-reference {
+  text-decoration: none;
+  margin: auto;
+  display: flex;
+  width: 6.3125rem;
+  height: 1.875rem;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#flexconteiner p {
+  width: 16.75rem;
+  height: 6.4375rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Fira Sans";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-right: 0.1rem;
+}
+#flexconteiner span {
+  color: #fff;
+}
+#conteinertop-right {
+  grid-column: auto / span 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f17949;
 }
 #conteinertop-right p,
-#conteinerbottom-right p
-{
-    color: rgba(0, 0, 0, 0.50);
-    text-align: center;
-    font-family: 'Fira sans';
-    font-size: 0.6875rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.01375rem;
+#conteinerbottom-right p {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: "Fira sans";
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01375rem;
 }
 #conteinertop-right h2,
-#conteinerbottom-right h2
-{
-    color: #FFF;
-    text-align: center;
-    font-size: 2rem;
-    line-height: normal;
-    letter-spacing: -0.04rem;
+#conteinerbottom-right h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  line-height: normal;
+  letter-spacing: -0.04rem;
 }
-#conteinerbottom-right
-{
-    grid-column: auto /span 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #FFB939; 
+#conteinerbottom-right {
+  grid-column: auto / span 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffb939;
 }
-#nav
-{
-    grid-column: 2 /span 4;
-    grid-row: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#nav {
+  grid-column: 2 / span 4;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#nav nav
-{
-display: flex;
-width: 10.4375rem;
-height: 3.5625rem;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: #000;
-text-align: center;
-font-family: 'Fira Sans';
-font-size: 0.75rem;
-font-style: normal;
-font-weight: 600;
-line-height: 100%; /* 0.75rem */
-letter-spacing: -0.015rem;
-opacity: 0.4;
+#nav nav {
+  display: flex;
+  width: 10.4375rem;
+  height: 3.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 0.75rem */
+  letter-spacing: -0.015rem;
+  opacity: 0.4;
 }
-#nav nav:hover
-{
-    opacity: 1;
+#nav nav:hover {
+  opacity: 1;
 }
-img
-{
-width: 17.875rem;
-height: 17.4375rem;
-position: absolute;
-bottom: 0;
-right: 1.06rem;
-
+img {
+  width: 17.875rem;
+  height: 17.4375rem;
+  position: absolute;
+  bottom: 0;
+  right: 1.06rem;
 }
-h2
-{
-font-family: 'Frank Ruhl Libre';
-font-size: 2.8125rem;/* 45px */
-font-style: normal;
-font-weight: 900;
-line-height: 100%; 
-letter-spacing: -0.05625rem;
+h2 {
+  font-family: "Frank Ruhl Libre";
+  font-size: 2.8125rem; /* 45px */
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.05625rem;
 }
 
 /*---------------------Main-------------------*/
 
-#main-grid-middle{  
-    margin: 0 auto;
-    max-width: 1002px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 4.25rem;
-    background-color: #A9A19E;
-  }
-  
-#left-main-flex{
-    grid-column: auto / span 3;
-    grid-row: span 9;
-    display: flex;
-    flex-direction: column;
-    place-self: center;
-    background: #A9A19E;  
+#main-grid-middle {
+  margin: 0 auto;
+  max-width: 1002px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 4.25rem;
+  background-color: #a9a19e;
 }
-#right-main-flex{
-    grid-column: auto / span 3;
-    grid-row: span 9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #A9A19E;
-    line-height: 1.5;
+
+#left-main-flex {
+  grid-column: auto / span 3;
+  grid-row: span 9;
+  display: flex;
+  flex-direction: column;
+  place-self: center;
+  background: #a9a19e;
+}
+#right-main-flex {
+  grid-column: auto / span 3;
+  grid-row: span 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #a9a19e;
+  line-height: 1.5;
 }
 #left-main-flex,
-#right-main-flex
-{
+#right-main-flex {
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   padding-top: 6.44rem;
 }
-#text-box-left
-{
-    width: 19.625rem;
-    height: 8.75rem;
-  font-family: 'Frank Ruhl Libre';
+#text-box-left {
+  width: 19.625rem;
+  height: 8.75rem;
+  font-family: "Frank Ruhl Libre";
   font-style: normal;
   font-weight: 900;
   font-size: 45px;
   line-height: 100%;
   /* or 45px */
   letter-spacing: -0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-  
-  #text-box-right
-  {
-    width: 280px;
-    height: 237px;
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    margin: auto;
-    color: rgba(0, 0, 0, 0.6);
-  }
-  #flexcointeiner-cards-in-middle
-  {
-    background-color: inherit;
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.69rem;
 
-  }
-.card 
-{
-    background-color: #FFF;
-    width: 16rem;
-    height: 19.25rem;
-    position: relative;
-    z-index: 1; 
-    display: flex;
-    justify-content: center;
+#text-box-right {
+  width: 280px;
+  height: 237px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  margin: auto;
+  color: rgba(0, 0, 0, 0.6);
 }
-.frame
-{
-    width: 14.75rem; 
-    height: 9.375rem;
-    position: absolute;
-    top: -1.63rem;
-    background: #F17949;
+#flexcointeiner-cards-in-middle {
+  background-color: inherit;
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.69rem;
 }
-  
+.card {
+  background-color: #fff;
+  width: 16rem;
+  height: 19.25rem;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.frame {
+  width: 14.75rem;
+  height: 9.375rem;
+  position: absolute;
+  top: -1.63rem;
+  background: #f17949;
+}
 
-  
-  /*-------------Three-pictures-----------*/
-  
-  #pictures-container{
-    position:relative;
-    top: -20rem;
-    grid-column: auto / span 4;
-    grid-row: 4.25rem;
-    background-color: white;
-    height: 70%;
-  }
-  
-  .white-card{
-    background-color: rgb(7, 175, 111);
-  }
-  
-  /*-------------main-bottom--------------*/
-  
-  /*#main-bottom{
-    
-    margin: 0 auto;
-    max-width: 1002px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows:  35rem;
-    background: #ffb939;
-  }*/
-#main-bottom
-{
-    grid-column: auto / span 6;
-    grid-row: span 9;
-    background: #ffb939;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 11.69rem;
-
+.color-for-picture-background-left{
+  background: #C7DDEA;
 }
-/*.main-bottom-textbox
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
-#textbox-About-us
-{
-    display: flex;
-    width: 19.625rem;
-    height: 6.3125rem;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: -0.02em;
-    font-family: 'Frank Ruhl Libre';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 100%;
-    color: #FFFFFF;
-    padding-bottom: 0.69rem;
-  }
-.text-box-bottom
-{
-  
-    width: 27.625rem;
-    height: 17.5rem;
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* or 143% */
-    text-align: center;  
-    color: rgba(0, 0, 0, 0.6);
-  }
+
+.color-for-picture-background-middle{
+  background: #FAB131;
+}
+
+.color-for-picture-background-right{
+  background: #F17949;
+}
+
+
+/*-------------Three-pictures-----------*/
+
+#pictures-container {
+  position: relative;
+  top: -20rem;
+  grid-column: auto / span 4;
+  grid-row: 4.25rem;
+  background-color: white;
+  height: 70%;
+}
+
+/*-------------main-bottom--------------*/
+
+#main-bottom {
+  grid-column: auto / span 6;
+  grid-row: span 9;
+  background: #ffb939;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 11.69rem;
+}
+
+#textbox-About-us {
+  display: flex;
+  width: 19.625rem;
+  height: 6.3125rem;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -0.02em;
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 100%;
+  color: #ffffff;
+  padding-bottom: 0.69rem;
+}
+.text-box-bottom {
+  width: 27.625rem;
+  height: 17.5rem;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
