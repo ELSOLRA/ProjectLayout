@@ -212,7 +212,8 @@ letter-spacing: -0.05625rem;
   margin-right: auto;
   padding-top: 6.44rem;
 }
-  #text-box-left{
+#text-box-left
+{
     width: 19.625rem;
     height: 8.75rem;
   font-family: 'Frank Ruhl Libre';
@@ -223,7 +224,7 @@ letter-spacing: -0.05625rem;
   /* or 45px */
   letter-spacing: -0.02em;
   color: #FFFFFF;
-  }
+}
   
   #text-box-right
   {
@@ -238,9 +239,34 @@ letter-spacing: -0.05625rem;
     margin: auto;
     color: rgba(0, 0, 0, 0.6);
   }
-  
-  
+  #flexcointeiner-cards-in-middle
+  {
+    background-color: inherit;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.69rem;
 
+  }
+.card 
+{
+    background-color: #FFF;
+    width: 16rem;
+    height: 19.25rem;
+    position: relative;
+    z-index: 1; 
+    display: flex;
+    justify-content: center;
+}
+.frame
+{
+    width: 14.75rem; 
+    height: 9.375rem;
+    position: absolute;
+    top: -1.63rem;
+    background: #F17949;
+}
   
 
   
