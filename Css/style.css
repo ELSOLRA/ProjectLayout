@@ -182,12 +182,12 @@ h2 {
   max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: 40rem;
-  background-color: gray;
+  grid-auto-rows: 4.25rem;
 }
 
 #left-main-flex {
   grid-column: auto / span 3;
+  grid-row: 1 / span 9;
   display: flex;
   flex-direction: column;
   align-items: top;
@@ -220,16 +220,14 @@ h2 {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   color: rgba(0, 0, 0, 0.6);
-
   margin-bottom: auto;
   margin-top: 2rem;
 }
 
 #right-main-flex {
   grid-column: auto / span 3;
+  grid-row: 1 / span 9;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -257,10 +255,9 @@ h2 {
 /*-------------Three-pictures-----------*/
 
 #picture-container {
-  position: relative;
-  top: -18rem;
+  position: absolute;
+  top: 33rem; 
   grid-column: auto / span 6;
-  grid-row: 4.25rem;
   height: 70%;
   display: flex;
   flex-direction: row;
@@ -355,6 +352,7 @@ h2 {
 /*-------------main-bottom--------------*/
 
 #main-bottom {
+  grid-row: 10 / span 9;
   max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -368,9 +366,11 @@ h2 {
 }
 
 .text-span {
-  position: relative;
-  top: -620px;
+  position: absolute;
+  top: 1400px;
+  left: 31rem;
   grid-column: 2 / span 4;
+  grid-row: 19 / span 9;
   display: flex;
   flex-direction: column;
   align-items: center;
