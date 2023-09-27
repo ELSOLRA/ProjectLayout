@@ -368,7 +368,7 @@ h2 {
 .text-span {
   position: absolute;
   top: 1400px;
-  left: 59rem;
+  left: 37rem;
   grid-column: 2 / span 4;
   grid-row: 19 / span 9;
   display: flex;
