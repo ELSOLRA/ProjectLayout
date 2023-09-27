@@ -3,10 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   width: 100vw;
   height: 100vh;
 }
+
 .wrapper-topgrid {
   max-width: 1002px;
   margin: 0 auto;
@@ -14,12 +16,14 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: 17rem 17rem 4.25rem;
 }
+
 #flexconteiner {
   background: #c7ddea;
   grid-column: auto / span 3;
   grid-row: span 2;
   position: relative;
 }
+
 #flexconteinertext {
   display: flex;
   flex-direction: column;
@@ -28,10 +32,12 @@ body {
   padding-top: 4.44rem;
   padding-left: 1.85rem;
 }
+
 #flexconteinertext h2 {
   width: 19.625rem;
   height: 6.3125rem;
 }
+
 .join-now-button {
   width: 8.1875rem;
   height: 2.4375rem;
@@ -41,11 +47,13 @@ body {
   border: none;
   margin-top: 3.19rem;
 }
+
 .join-now-button:hover {
   transition-delay: 0.1s;
   transform: scale(1.15);
   box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1);
 }
+
 .button-reference {
   text-decoration: none;
   margin: auto;
@@ -62,6 +70,7 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+
 #flexconteiner p {
   width: 16.75rem;
   height: 6.4375rem;
@@ -73,9 +82,11 @@ body {
   line-height: 1.5rem;
   padding-right: 0.1rem;
 }
+
 #flexconteiner span {
   color: #fff;
 }
+
 #conteinertop-right {
   grid-column: auto / span 3;
   display: flex;
@@ -84,6 +95,7 @@ body {
   justify-content: center;
   background: #f17949;
 }
+
 #conteinertop-right p,
 #conteinerbottom-right p {
   color: rgba(0, 0, 0, 0.5);
@@ -95,6 +107,7 @@ body {
   line-height: normal;
   letter-spacing: -0.01375rem;
 }
+
 #conteinertop-right h2,
 #conteinerbottom-right h2 {
   color: #fff;
@@ -103,6 +116,7 @@ body {
   line-height: normal;
   letter-spacing: -0.04rem;
 }
+
 #conteinerbottom-right {
   grid-column: auto / span 3;
   display: flex;
@@ -111,6 +125,7 @@ body {
   justify-content: center;
   background: #ffb939;
 }
+
 #nav {
   grid-column: 2 / span 4;
   grid-row: 3;
@@ -118,6 +133,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 #nav nav {
   display: flex;
   width: 10.4375rem;
@@ -131,13 +147,16 @@ body {
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 100%; /* 0.75rem */
+  line-height: 100%;
+  /* 0.75rem */
   letter-spacing: -0.015rem;
   opacity: 0.4;
 }
+
 #nav nav:hover {
   opacity: 1;
 }
+
 img {
   width: 17.875rem;
   height: 17.4375rem;
@@ -145,9 +164,11 @@ img {
   bottom: 0;
   right: 1.06rem;
 }
+
 h2 {
   font-family: "Frank Ruhl Libre";
-  font-size: 2.8125rem; /* 45px */
+  font-size: 2.8125rem;
+  /* 45px */
   font-style: normal;
   font-weight: 900;
   line-height: 100%;
@@ -173,6 +194,7 @@ h2 {
   place-self: center;
   background: #a9a19e;
 }
+
 #right-main-flex {
   grid-column: auto / span 3;
   grid-row: span 9;
@@ -183,6 +205,7 @@ h2 {
   background: #a9a19e;
   line-height: 1.5;
 }
+
 #left-main-flex,
 #right-main-flex {
   margin-bottom: auto;
@@ -190,6 +213,7 @@ h2 {
   margin-right: auto;
   padding-top: 6.44rem;
 }
+
 #text-box-left {
   width: 19.625rem;
   height: 8.75rem;
@@ -226,6 +250,7 @@ h2 {
   align-items: center;
   gap: 1.69rem;
 }
+
 .card {
   background-color: #fff;
   width: 16rem;
@@ -235,6 +260,7 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
 .frame {
   width: 14.75rem;
   height: 9.375rem;
@@ -243,15 +269,15 @@ h2 {
   background: #f17949;
 }
 
-.color-for-picture-background-left{
+.color-for-picture-background-left {
   background: #C7DDEA;
 }
 
-.color-for-picture-background-middle{
+.color-for-picture-background-middle {
   background: #FAB131;
 }
 
-.color-for-picture-background-right{
+.color-for-picture-background-right {
   background: #F17949;
 }
 
@@ -282,6 +308,7 @@ h2 {
   color: #ffffff;
   padding-bottom: 0.69rem;
 }
+
 .text-box-bottom {
   width: 27.625rem;
   height: 17.5rem;
@@ -296,7 +323,7 @@ h2 {
 
 /*-------------Cube section--------------*/
 
-#cube-section{
+#cube-section-grid {
   margin: 0 auto;
   max-width: 1000px;
   display: grid;
@@ -304,24 +331,72 @@ h2 {
   grid-auto-rows: 4.25rem;
 }
 
-.cube-size{
+.cube-size {
   grid-column: auto / span 2;
-  grid-row: auto / span 5;/*Behöver ändra för att få en kub*/
+  grid-row: auto / span 5;
 }
 
-.cube-section-color-with-text{
+.cube-section-color-with-text {
   background: #C7DDEA;
 }
 
-.cube-section-color-first-third-fifth{
+.cube-section-color-first-third-fifth {
   background: #FFFFFF;
 }
 
-.cube-section-color-second{
+.cube-section-color-second {
   background: #EBEBEB;
 }
 
-.cube-section-color-fourth{
+.cube-section-color-fourth {
   background: #F17949;
 }
 
+.number-box-top-left {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.grid-item-centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-styling {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.8);
+
+}
+
+.number-styling{
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.text-box-for-centering{
+  margin: 0 auto;
+  width: 257px;
+  height: 113px;
+}
+
+.text-styling{
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*-------------Footer--------------*/
