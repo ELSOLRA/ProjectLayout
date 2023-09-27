@@ -415,10 +415,10 @@ h2 {
   height: 340px;
   grid-row: auto  / span 2;  
   background: #777574;
+  position: relative;
 }
 
 #Take-me-up-text{
-  
   height: 4.25rem;
   background: #A9A19E;
   grid-column: auto / span 6;
@@ -436,10 +436,12 @@ h2 {
 
 
 #chevrons-image{
-  position: relative;
+  position: absolute;
   top: -65px;
-  left: 485px; 
+  left: 18px;  
+  margin: 0 auto;
+
   width: 32px;
   height: 32px;
-  z-index: 0;
+ 
 }
