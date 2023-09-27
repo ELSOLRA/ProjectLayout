@@ -158,7 +158,7 @@ h2 {
 
 #main-grid-middle {
   margin: 0 auto;
-  max-width: 1002px;
+  max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: 4.25rem;
@@ -215,6 +215,9 @@ h2 {
   margin: auto;
   color: rgba(0, 0, 0, 0.6);
 }
+
+/*--------------Pictures------------------*/
+
 #flexcointeiner-cards-in-middle {
   background-color: inherit;
   grid-column: 1 / -1;
@@ -250,18 +253,6 @@ h2 {
 
 .color-for-picture-background-right{
   background: #F17949;
-}
-
-
-/*-------------Three-pictures-----------*/
-
-#pictures-container {
-  position: relative;
-  top: -20rem;
-  grid-column: auto / span 4;
-  grid-row: 4.25rem;
-  background-color: white;
-  height: 70%;
 }
 
 /*-------------main-bottom--------------*/
@@ -302,3 +293,35 @@ h2 {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
 }
+
+/*-------------Cube section--------------*/
+
+#cube-section{
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 4.25rem;
+}
+
+.cube-size{
+  grid-column: auto / span 2;
+  grid-row: auto / span 5;/*Behöver ändra för att få en kub*/
+}
+
+.cube-section-color-with-text{
+  background: #C7DDEA;
+}
+
+.cube-section-color-first-third-fifth{
+  background: #FFFFFF;
+}
+
+.cube-section-color-second{
+  background: #EBEBEB;
+}
+
+.cube-section-color-fourth{
+  background: #F17949;
+}
+
