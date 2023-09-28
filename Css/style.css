@@ -1,4 +1,5 @@
-* {
+* 
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -157,7 +158,7 @@ body {
   opacity: 1;
 }
 
-img {
+#family {
   width: 17.875rem;
   height: 17.4375rem;
   position: absolute;
@@ -258,7 +259,9 @@ h2 {
   position: relative;
   z-index: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .frame {
@@ -266,19 +269,85 @@ h2 {
   height: 9.375rem;
   position: absolute;
   top: -1.63rem;
-  background: #f17949;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden
 }
-
+.card img
+{
+  position: absolute;
+  object-fit: contain;
+}
+.card h3
+{
+  margin-top: auto;
+  display: flex;
+  width: 12.375rem;
+  height: 0.8125rem;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.90);
+  text-align: center;
+  font-family: 'Frank Ruhl Libre';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+  padding-bottom: 0.88rem;
+}
+.card p
+{
+  width: 13.375rem;
+  height: 6.75rem;
+  color: rgba(0, 0, 0, 0.40);
+  text-align: center;
+  font-family:'Fira Sans';
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.125rem;
+  margin-bottom: 1.69rem;
+}
+#childimage
+{
+  width: 13.375rem;
+  height: 8.625rem;
+  transform: translateY(19%) scale(1.1);
+}
+#adultimage
+{
+  display: flex;
+  width: 13.625rem;
+  padding: 0rem 3.601rem 0rem 3.5385rem;
+  justify-content: center;
+  align-items: center;
+  transform: scale(94%);
+}
+#oldmanimage
+{
+  display: inline-flex;
+  padding: 1.5rem 1.52894rem 0rem 3.24888rem;
+  justify-content: flex-end;
+  align-items: center;
+  transform: translateY(-35%) scale(28%);
+}
 .color-for-picture-background-left {
   background: #C7DDEA;
 }
-
 .color-for-picture-background-middle {
   background: #FAB131;
 }
-
 .color-for-picture-background-right {
   background: #F17949;
+}
+.color-for-picture-background-left:hover,
+.color-for-picture-background-middle:hover,
+.color-for-picture-background-right:hover 
+{
+  transition: 0.8s;
+  transform: scale(1.3) translateY(-15%);
+  box-shadow: -10px 30px 52px #93b0b9;
 }
 
 /*-------------main-bottom--------------*/
@@ -428,6 +497,7 @@ h2 {
   font-size: 17px;
   line-height: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -435,13 +505,17 @@ h2 {
 }
 
 
-#chevrons-image{
-  position: absolute;
-  top: -65px;
-  left: 18px;  
+#chevrons-image
+{
   margin: 0 auto;
-
   width: 32px;
   height: 32px;
- 
+  transition: 0.4s;
+  position: absolute;
+  transform: translateY(-65%) translateX(-60%); 
+}
+#chevrons-image:hover
+{
+  transform: translateY(-100%) translateX(-60%);
+  box-shadow: 0 0 2px black;
 }
