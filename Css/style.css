@@ -406,10 +406,6 @@ h2 {
   grid-row: auto / span 5;
 }
 
-/* .cube-section-color-with-text { byte med picture-background.
-  background: #C7DDEA;
-} */
-
 .cube-section-color-first-third-fifth {
   background: #FFFFFF;
 }
@@ -417,10 +413,6 @@ h2 {
 .cube-section-color-second {
   background: #EBEBEB;
 }
-
-/* .cube-section-color-fourth {
-  background: #F17949;
-} */
 
 .number-box-top-left {
   width: 6.25rem;
@@ -434,7 +426,7 @@ h2 {
 }
 
 .title-styling {
-  width: 19.625rem;
+  width: 19.625rem; 
   height: 6.3125rem;
   font-family: 'Frank Ruhl Libre';
   font-style: normal;
@@ -443,6 +435,7 @@ h2 {
   line-height: 100%;
   letter-spacing: -0.02em;
   color: rgba(0, 0, 0, 0.8);
+  overflow-wrap: break-word;
 }
 
 .number-styling{
@@ -470,10 +463,9 @@ h2 {
   color: rgba(0, 0, 0, 0.7);
 }
 
-
 /*-------------Footer--------------*/
 
-#footer-section-grid{
+h1 #footer-section-grid{
   margin: 0 auto;
   max-width: 62.5rem;
   display: grid;
