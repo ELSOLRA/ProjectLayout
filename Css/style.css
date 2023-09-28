@@ -69,7 +69,79 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+.wrapper-topgrid {
+  max-width: 1002px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 17rem 17rem 4.25rem;
 }
+
+#flexconteiner {
+  background: #c7ddea;
+  grid-column: auto / span 3;
+  grid-row: span 2;
+  position: relative;
+}
+
+#flexconteinertext {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-top: 4.44rem;
+  padding-left: 1.85rem;
+}
+
+#flexconteinertext h2 {
+  width: 19.625rem;
+  height: 6.3125rem;
+}
+
+.join-now-button {
+  width: 8.1875rem;
+  height: 2.4375rem;
+  border-radius: 6.25rem;
+  background: #fff;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-top: 3.19rem;
+}
+
+.join-now-button:hover {
+  transition-delay: 0.1s;
+  transform: scale(1.15);
+  box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.button-reference {
+  text-decoration: none;
+  margin: auto;
+  display: flex;
+  width: 6.3125rem;
+  height: 1.875rem;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#flexconteiner p {
+  width: 16.75rem;
+  height: 6.4375rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Fira Sans";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-right: 0.1rem;
 
 #flexconteiner p {
   width: 16.75rem;
@@ -85,7 +157,39 @@ body {
 
 #flexconteiner span {
   color: #fff;
+
+#flexconteiner span {
+  color: #fff;
 }
+
+#conteinertop-right {
+  grid-column: auto / span 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f17949;
+}
+
+#conteinertop-right p,
+#conteinerbottom-right p {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: "Fira sans";
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01375rem;
+}
+
+#conteinertop-right h2,
+#conteinerbottom-right h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  line-height: normal;
+  letter-spacing: -0.04rem;
 
 #conteinertop-right {
   grid-column: auto / span 3;
@@ -124,7 +228,22 @@ body {
   align-items: center;
   justify-content: center;
   background: #ffb939;
+
+#conteinerbottom-right {
+  grid-column: auto / span 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffb939;
 }
+
+#nav {
+  grid-column: 2 / span 4;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 #nav {
   grid-column: 2 / span 4;
@@ -151,13 +270,34 @@ body {
   /* 0.75rem */
   letter-spacing: -0.015rem;
   opacity: 0.4;
+
+#nav nav {
+  display: flex;
+  width: 10.4375rem;
+  height: 3.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  /* 0.75rem */
+  letter-spacing: -0.015rem;
+  opacity: 0.4;
 }
+
+#nav nav:hover {
+  opacity: 1;
 
 #nav nav:hover {
   opacity: 1;
 }
 
-img {
+#family {
   width: 17.875rem;
   height: 17.4375rem;
   position: absolute;
@@ -258,7 +398,9 @@ h2 {
   position: relative;
   z-index: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .frame {
@@ -266,19 +408,85 @@ h2 {
   height: 9.375rem;
   position: absolute;
   top: -1.63rem;
-  background: #f17949;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden
 }
-
+.card img
+{
+  position: absolute;
+  object-fit: contain;
+}
+.card h3
+{
+  margin-top: auto;
+  display: flex;
+  width: 12.375rem;
+  height: 0.8125rem;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.90);
+  text-align: center;
+  font-family: 'Frank Ruhl Libre';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+  padding-bottom: 0.88rem;
+}
+.card p
+{
+  width: 13.375rem;
+  height: 6.75rem;
+  color: rgba(0, 0, 0, 0.40);
+  text-align: center;
+  font-family:'Fira Sans';
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.125rem;
+  margin-bottom: 1.69rem;
+}
+#childimage
+{
+  width: 13.375rem;
+  height: 8.625rem;
+  transform: translateY(19%) scale(1.1);
+}
+#adultimage
+{
+  display: flex;
+  width: 13.625rem;
+  padding: 0rem 3.601rem 0rem 3.5385rem;
+  justify-content: center;
+  align-items: center;
+  transform: scale(94%);
+}
+#oldmanimage
+{
+  display: inline-flex;
+  padding: 1.5rem 1.52894rem 0rem 3.24888rem;
+  justify-content: flex-end;
+  align-items: center;
+  transform: translateY(-35%) scale(28%);
+}
 .color-for-picture-background-left {
   background: #C7DDEA;
 }
-
 .color-for-picture-background-middle {
   background: #FAB131;
 }
-
 .color-for-picture-background-right {
   background: #F17949;
+}
+.color-for-picture-background-left:hover,
+.color-for-picture-background-middle:hover,
+.color-for-picture-background-right:hover 
+{
+  transition: 0.8s;
+  transform: scale(1.3) translateY(-15%);
+  box-shadow: -10px 30px 52px #93b0b9;
 }
 
 /*-------------main-bottom--------------*/
@@ -428,6 +636,7 @@ h2 {
   font-size: 17px;
   line-height: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -435,13 +644,17 @@ h2 {
 }
 
 
-#chevrons-image{
-  position: absolute;
-  top: -65px;
-  left: 18px;  
+#chevrons-image
+{
   margin: 0 auto;
-
   width: 32px;
   height: 32px;
- 
+  transition: 0.4s;
+  position: absolute;
+  transform: translateY(-65%) translateX(-60%); 
+}
+#chevrons-image:hover
+{
+  transform: translateY(-100%) translateX(-60%);
+  box-shadow: 0 0 2px black;
 }
