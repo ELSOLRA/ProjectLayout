@@ -9,67 +9,8 @@ body {
   height: 100vh;
 }
 
-.wrapper-topgrid {
-  max-width: 62.5rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: 17rem 17rem 4.25rem;
-}
+/*---------Left  header----------*/
 
-#flexconteiner {
-  background: #c7ddea;
-  grid-column: auto / span 3;
-  grid-row: span 2;
-  position: relative;
-}
-
-#flexconteinertext {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  padding-top: 4.44rem;
-  padding-left: 1.85rem;
-}
-
-#flexconteinertext h2 {
-  width: 19.625rem;
-  height: 6.3125rem;
-}
-
-.join-now-button {
-  width: 8.1875rem;
-  height: 2.4375rem;
-  border-radius: 6.25rem;
-  background: #fff;
-  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
-  border: none;
-  margin-top: 3.19rem;
-}
-
-.join-now-button:hover {
-  transition-delay: 0.1s;
-  transform: scale(1.15);
-  box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1);
-}
-
-.button-reference {
-  text-decoration: none;
-  margin: auto;
-  display: flex;
-  width: 6.3125rem;
-  height: 1.875rem;
-  flex-direction: column;
-  justify-content: center;
-  color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  font-family: "Fira Sans";
-  font-size: 0.625rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
 .wrapper-topgrid {
   max-width: 62.5rem;
   margin: 0 auto;
@@ -144,55 +85,11 @@ body {
   padding-right: 0.1rem;
 }
 
-#flexconteiner p {
-  width: 16.75rem;
-  height: 6.4375rem;
-  color: rgba(0, 0, 0, 0.6);
-  font-family: "Fira Sans";
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5rem;
-  padding-right: 0.1rem;
-}
-
 #flexconteiner span {
   color: #fff;
 }
 
-#flexconteiner span {
-  color: #fff;
-}
-
-#conteinertop-right {
-  grid-column: auto / span 3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #f17949;
-}
-
-#conteinertop-right p,
-#conteinerbottom-right p {
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font-family: "Fira sans";
-  font-size: 0.6875rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -0.01375rem;
-}
-
-#conteinertop-right h2,
-#conteinerbottom-right h2 {
-  color: #fff;
-  text-align: center;
-  font-size: 2rem;
-  line-height: normal;
-  letter-spacing: -0.04rem;
-}
+/*--------Right header-------------*/
 
 #conteinertop-right {
   grid-column: auto / span 3;
@@ -233,23 +130,6 @@ body {
   background: #ffb939;
 }
 
-#conteinerbottom-right {
-  grid-column: auto / span 3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #ffb939;
-}
-
-#nav {
-  grid-column: 2 / span 4;
-  grid-row: 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #nav {
   grid-column: 2 / span 4;
   grid-row: 3;
@@ -275,29 +155,6 @@ body {
   /* 0.75rem */
   letter-spacing: -0.015rem;
   opacity: 0.4;
-}
-
-#nav nav {
-  display: flex;
-  width: 10.4375rem;
-  height: 3.5625rem;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  color: #000;
-  text-align: center;
-  font-family: "Fira Sans";
-  font-size: 0.75rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 100%;
-  /* 0.75rem */
-  letter-spacing: -0.015rem;
-  opacity: 0.4;
-}
-
-#nav nav:hover {
-  opacity: 1;
 }
 
 #nav nav:hover {
@@ -315,7 +172,6 @@ body {
 h2 {
   font-family: "Frank Ruhl Libre";
   font-size: 2.8125rem;
-  /* 45px */
   font-style: normal;
   font-weight: 900;
   line-height: 100%;
@@ -387,7 +243,7 @@ h2 {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/*--------------Pictures------------------*/
+/*--------------Pictures in middle of main------------------*/
 
 #flexcointeiner-cards-in-middle {
   background-color: inherit;
@@ -551,9 +407,9 @@ h2 {
   grid-row: auto / span 5;
 }
 
-.cube-section-color-with-text {
+/* .cube-section-color-with-text { byte med picture-background.
   background: #C7DDEA;
-}
+} */
 
 .cube-section-color-first-third-fifth {
   background: #FFFFFF;
@@ -563,9 +419,9 @@ h2 {
   background: #EBEBEB;
 }
 
-.cube-section-color-fourth {
+/* .cube-section-color-fourth {
   background: #F17949;
-}
+} */
 
 .number-box-top-left {
   width: 6.25rem;
