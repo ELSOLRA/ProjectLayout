@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper-topgrid {
-  max-width: 1002px;
+  max-width: 62.5rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -69,9 +69,9 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
+}
 .wrapper-topgrid {
-  max-width: 1002px;
+  max-width: 62.5rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -142,6 +142,7 @@ body {
   font-weight: 500;
   line-height: 1.5rem;
   padding-right: 0.1rem;
+}
 
 #flexconteiner p {
   width: 16.75rem;
@@ -157,6 +158,7 @@ body {
 
 #flexconteiner span {
   color: #fff;
+}
 
 #flexconteiner span {
   color: #fff;
@@ -190,6 +192,7 @@ body {
   font-size: 2rem;
   line-height: normal;
   letter-spacing: -0.04rem;
+}
 
 #conteinertop-right {
   grid-column: auto / span 3;
@@ -228,6 +231,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #ffb939;
+}
 
 #conteinerbottom-right {
   grid-column: auto / span 3;
@@ -244,6 +248,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
 #nav {
   grid-column: 2 / span 4;
@@ -270,6 +275,7 @@ body {
   /* 0.75rem */
   letter-spacing: -0.015rem;
   opacity: 0.4;
+}
 
 #nav nav {
   display: flex;
@@ -292,6 +298,7 @@ body {
 
 #nav nav:hover {
   opacity: 1;
+}
 
 #nav nav:hover {
   opacity: 1;
@@ -319,7 +326,7 @@ h2 {
 
 #main-grid-middle {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 62.5rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: 4.25rem;
@@ -368,8 +375,8 @@ h2 {
 }
 
 #text-box-right {
-  width: 280px;
-  height: 237px;
+  width: 17.5rem;
+  height: 14.8125rem;
   font-family: "Fira Sans";
   font-style: normal;
   font-weight: 500;
@@ -533,7 +540,7 @@ h2 {
 
 #cube-section-grid {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 62.5rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: 4.25rem;
@@ -594,8 +601,8 @@ h2 {
 
 .text-box-for-centering{
   margin: 0 auto;
-  width: 257px;
-  height: 113px;
+  width: 16.0625rem;
+  height: 7.0625rem;
 }
 
 .text-styling{
@@ -612,7 +619,7 @@ h2 {
 
 #footer-section-grid{
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 62.5rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: 4.25rem;
@@ -620,7 +627,7 @@ h2 {
 
 #footer-container{
   grid-column: auto / span 6;
-  height: 340px;
+  height: 21.25rem; 
   grid-row: auto  / span 2;  
   background: #777574;
   position: relative;
